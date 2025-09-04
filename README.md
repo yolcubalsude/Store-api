@@ -25,21 +25,21 @@ Error Handling: Centralized error middleware and 404 handling.
 
 ###   Project Structure
 store-api/
-├── controllers/       # Route controllers (products logic)
+├── controllers/           		# Route controllers (products logic)
 │   └── products.js
-├── db/                # MongoDB connection setup
+├── db/                			# MongoDB connection setup
 │   └── connect.js
-├── middleware/        # Error and 404 middleware
+├── middleware/        			# Error and 404 middleware
 │   ├── error-handler.js
 │   └── not-found.js
-├── models/            # Database schemas
+├── models/            			# Database schemas
 │   └── product.js
-├── routes/            # API route definitions
+├── routes/            			# API route definitions
 │   └── products.js
-├── products.json      # Sample dataset
-├── populate.js        # Script to import sample data
-├── index.js           # Server entry point
-├── .env               # Environment variables (Mongo URI, port)
+├── products.json      			# Sample dataset
+├── populate.js        			# Script to import sample data
+├── index.js           			# Server entry point
+├── .env               			# Environment variables (Mongo URI, port)
 ├── package.json
 └── README.md
 
@@ -57,22 +57,22 @@ Installation
 
 ###  Setup
 
-# Clone repository
+### Clone repository
 git clone https://github.com/yolcubalsude/Jobs-API.git
 cd Jobs-API
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Setup environment variables
-# Create a .env file in root with:
-# MONGO_URI=your_mongodb_connection_string
-# PORT=3000
+ Setup environment variables
+ Create a .env file in root with:
+ MONGO_URI=your_mongodb_connection_string
+ PORT=3000
 
-# Populate DB with sample products
+ Populate DB with sample products
 node populate.js
 
-# Run server
+ Run server
 npm start
 
 
