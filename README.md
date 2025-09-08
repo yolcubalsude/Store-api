@@ -24,6 +24,8 @@ Error Handling: Centralized error middleware and 404 handling.
 
 
 ###   Project Structure
+
+```
 store-api/
 ├── controllers/           		# Route controllers (products logic)
 │   └── products.js
@@ -42,7 +44,7 @@ store-api/
 ├── .env               			# Environment variables (Mongo URI, port)
 ├── package.json
 └── README.md
-
+```
 
 
 
